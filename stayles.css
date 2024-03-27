@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    background-color: #F7563B;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  #F59568;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid  #F7563B;  
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #F7563B;
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
